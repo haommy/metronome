@@ -1,6 +1,10 @@
-### Metronome
+## Metronome
 
 A precise, terminal-based CLI metronome with audio and live controls.
+
+<p align="center">
+  <img src="demo.gif" alt="animated" width="100%" />
+</p>
 
 ### Install
 
