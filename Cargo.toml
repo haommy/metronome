@@ -1,0 +1,11 @@
+[package]
+name = "metronome"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+crossterm = "0.27"
+rodio = "0.17"
+ctrlc = "3.4"
+unicode-width = "0.1"
